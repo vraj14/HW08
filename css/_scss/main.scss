@@ -1,0 +1,24 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+
+// Your CSS/SCSS below this line
+
+body{
+	@include linear-gradient($background-gradient-1, $background-gradient-2);
+	font-family: $body, $body-fb;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $headline, $headline-fb;
+}
+
+h1{
+	font-size: $headline-font-size;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}

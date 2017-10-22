@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Dosis");
+body {
+  background: LightSteelBlue;
+  background: url("../images/skulls.png"), linear-gradient(180deg, LightSteelBlue, LightSlateGrey);
+  font-family: "Dosis", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
